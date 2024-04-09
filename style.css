@@ -110,3 +110,13 @@ font-family: "Righteous", sans-serif; */
     border-radius: 15px;
     box-shadow: 1px 5px 40px 3px rgba(185, 184, 184, 0.644);
 }
+
+.card-section3{
+    border: 0px solid gray;
+    border-radius: 15px;
+    box-shadow: 1px 5px 40px 3px rgba(185, 184, 184, 0.644);
+}
+
+.custom-card-section3{
+    height: 85%;
+}
