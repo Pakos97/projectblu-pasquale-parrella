@@ -103,7 +103,7 @@ font-family: "Righteous", sans-serif; */
 }
 
 .custom-bittone{
-    margin: 15px 50px;
+    
     width: 100px;
     height: 100px;
     border: 0px solid gray;
@@ -119,4 +119,25 @@ font-family: "Righteous", sans-serif; */
 
 .custom-card-section3{
     height: 85%;
+}
+.box1{
+    border: 0px solid gray;
+    border-radius: 15px;
+    box-shadow: 1px 5px 40px 3px rgba(185, 184, 184, 0.644);
+}
+    
+
+.box2 {
+    border: 0px solid gray;
+    border-radius: 15px;
+    box-shadow: 1px 5px 40px 3px rgba(185, 184, 184, 0.644);
+    height: fit-content;
+}
+
+.imgcircle {
+    padding: 10px;
+    border: 5px solid #1566C0;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
 }
