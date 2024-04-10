@@ -1,5 +1,12 @@
 /* font-family: "Roboto", sans-serif;
 font-family: "Righteous", sans-serif; */
+* {
+    font-family: "Righteous", sans-serif; 
+}
+
+p h5{
+    font-family: "Roboto", sans-serif;
+}
 
 
 .imgheader {
@@ -199,4 +206,31 @@ font-family: "Righteous", sans-serif; */
     color: white;
     background-size: 100%;
     background-position: 0px;
+}
+
+.container-footer{
+    background-image:  linear-gradient(rgb(255, 255, 255),rgba(0, 0, 0, 0.212), rgb(0, 0, 0)),url(media/footer.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: top;
+
+}
+
+.color-scritta{
+    color: #ffc900;
+
+}
+
+.cazzo-di-classe{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.ciao{
+        text-align: justify;
+}
+
+.row-footer{
+    background-color: rgba(0, 0, 0, 0.041);
 }
