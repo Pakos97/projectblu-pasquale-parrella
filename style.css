@@ -141,3 +141,62 @@ font-family: "Righteous", sans-serif; */
     height: 300px;
     width: 300px;
 }
+
+
+.timeline1{
+    border-right: 3px solid #1566C0;
+}
+
+
+.balls-right .balls-left{
+    position: relative;
+    
+}
+
+
+.balls-right::after{
+    position:relative;
+    content: '';
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 3px solid #1566C0;
+    /* left: 48.94%; */
+    /* left: 48.4vw; */
+    bottom:150px ;
+}
+
+.balls-left::after{
+    position:relative;
+    content: '';
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 3px solid #1566C0;
+    /* left: 48.94%; */
+    /* left: 48.4vw; */
+    bottom:147.3px ;
+    background-color: white;
+}
+
+
+.balls-left{
+    margin-top: -20px;
+}
+
+
+.btn-color{
+    background-color: #1566C0;
+    color: white;
+    border-radius: 0%;
+    background-size: 200%;
+    background-position: 0px;
+    transition: 1s;
+}
+
+.btn-color:hover{
+    background:linear-gradient(120deg,white,#1566C0,cyan,darkblue);
+    color: white;
+    background-size: 100%;
+    background-position: 0px;
+}
